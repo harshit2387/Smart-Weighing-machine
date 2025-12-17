@@ -1,3 +1,19 @@
+app of this
+
+![WhatsApp Image 2025-12-17 at 7 39 04 PM](https://github.com/user-attachments/assets/5856affd-2365-4d7d-bea0-252f6a652952)
+
+![WhatsApp Image 2025-12-17 at 7 39 04 PM (1)](https://github.com/user-attachments/assets/a825c977-199b-41d0-84ec-d86af47074d2)
+
+![WhatsApp Image 2025-12-17 at 7 39 04 PM (2)](https://github.com/user-attachments/assets/277d390a-2e14-4d08-9a7e-7b74c6d87bb7)
+
+![WhatsApp Image 2025-12-17 at 7 39 05 PM](https://github.com/user-attachments/assets/b791f13e-d0be-4f31-8397-34247861be1c)
+
+![WhatsApp Image 2025-12-17 at 7 39 05 PM (1)](https://github.com/user-attachments/assets/eb9b1a60-dc8b-49d5-8867-f8b30de48944)
+
+![Uploading WhatsApp Image 2025-12-17 at 7.39.06 PM.jpeg…]()
+
+![WhatsApp Image 2025-12-17 at 7 39 07 PM (1)](https://github.com/user-attachments/assets/f09f75be-2949-4036-af62-cd8a28f86d76)
+
 # WeightSmart ESP8266 Firmware
 
 ## Hardware Requirements
@@ -204,4 +220,5 @@ Upload firmware via web at `http://<IP>/api/ota/upload`
 - Increase averaging samples
 - Check load cell mounting
 - Reduce vibrations
+
 
