@@ -1,0 +1,78 @@
+===================================================
+REQUIRED ARDUINO LIBRARIES FOR WEIGHTSMART ESP8266
+===================================================
+
+Install these libraries via Arduino IDE:
+Tools → Manage Libraries → Search and Install:
+
+1. ArduinoJson
+   Author: Benoit Blanchon
+   Version: 6.x or higher
+
+2. Adafruit GFX Library
+   Author: Adafruit
+   Version: Latest
+
+3. Adafruit SSD1306
+   Author: Adafruit
+   Version: Latest
+
+4. HX711
+   Author: Bogdan Necula (or Rob Tillaart)
+   Version: Latest
+
+5. WebSockets
+   Author: Markus Sattler
+   Version: Latest
+
+===================================================
+ESP8266 BOARD INSTALLATION
+===================================================
+
+1. Open Arduino IDE
+2. Go to: File → Preferences
+3. In "Additional Board Manager URLs" add:
+   http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+4. Go to: Tools → Board → Boards Manager
+5. Search: ESP8266
+6. Install: "ESP8266 by ESP8266 Community"
+
+===================================================
+BOARD SETTINGS
+===================================================
+
+After installation, select these settings in Tools menu:
+
+- Board: "NodeMCU 1.0 (ESP-12E Module)"
+- Flash Size: "4MB (FS:2MB OTA:~1019KB)"
+- CPU Frequency: "80 MHz"
+- Upload Speed: "115200"
+- Port: Select your COM port
+
+===================================================
+UPLOAD STEPS
+===================================================
+
+1. Connect ESP8266 via USB cable
+2. Open WeightSmart_ESP8266.ino
+3. Select correct COM port (Tools → Port)
+4. Click Upload button (→)
+5. Wait for "Done uploading" message
+6. Open Serial Monitor (115200 baud) to see output
+
+===================================================
+PINOUT REFERENCE (NodeMCU)
+===================================================
+
+D0 = GPIO16
+D1 = GPIO5  (SCL - OLED)
+D2 = GPIO4  (SDA - OLED)
+D3 = GPIO0
+D4 = GPIO2  (Built-in LED)
+D5 = GPIO14 (HX711 DT)
+D6 = GPIO12 (HX711 SCK)
+D7 = GPIO13
+D8 = GPIO15 (LDR Digital)
+A0 = ADC    (LDR Analog)
+
