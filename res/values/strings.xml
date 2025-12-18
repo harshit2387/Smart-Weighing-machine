@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeightSmart</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_weight">Weight</string>
+    <string name="title_tamper">Security</string>
+    <string name="title_firmware">Firmware</string>
+    <string name="title_settings">Settings</string>
+</resources>
