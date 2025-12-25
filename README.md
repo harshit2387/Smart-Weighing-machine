@@ -1,4 +1,7 @@
 app of this
+![WhatsApp Image 2025-12-20 at 9 40 08 PM](https://github.com/user-attachments/assets/676433ca-b620-4874-8326-718405e9ad96)
+![WhatsApp Image 2025-12-22 at 8 25 40 PM](https://github.com/user-attachments/assets/6d44caa4-533f-4b08-8105-8721f791c36d)
+
 
 ![WhatsApp Image 2025-12-17 at 7 39 04 PM](https://github.com/user-attachments/assets/5856affd-2365-4d7d-bea0-252f6a652952)
 
@@ -220,5 +223,6 @@ Upload firmware via web at `http://<IP>/api/ota/upload`
 - Increase averaging samples
 - Check load cell mounting
 - Reduce vibrations
+
 
 
